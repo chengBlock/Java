@@ -1,1 +1,0 @@
-mjh is sbssh -T git@github.com!
