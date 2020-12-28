@@ -44,3 +44,9 @@ git push origin <branch> 本地仓库与远程仓库绑定
 git checkout master 选择or切换到master分支
 git merge dev 将dev分支合并当前分支
 git push -u origin master//将本地更改全部推送到远程master分支
+
+* The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+将本地branch与远程branch建立绑定关系
