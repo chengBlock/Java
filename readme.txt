@@ -33,8 +33,12 @@ git push origin:<branchname> 删除后推送到服务器
 -a 查看本地和远程的所有分支
 git branch <branchname> 新建分支
 git branch -m <oldbranch> <newbranch> 重命名本地分支
-
-
+/**
+*重命名远程分支：
+*1、删除远程待修改分支
+*2、push本地新分支到远程服务器
+*/
+git push origin <branch> 本地仓库与远程仓库绑定
 
 新建或切换到给定分支
 git checkout master 选择or切换到master分支
