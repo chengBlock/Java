@@ -43,3 +43,4 @@ git push origin <branch> 本地仓库与远程仓库绑定
 新建或切换到给定分支
 git checkout master 选择or切换到master分支
 git merge dev 将dev分支合并当前分支
+git push -u origin master//将本地更改全部推送到远程master分支
