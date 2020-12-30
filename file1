@@ -1,9 +1,0 @@
-git restore <file>
-restore是恢复的意思，用来撤销未暂存的file；
-
-git restore --staged <file>
-use "git restore --staged <file>" to restore;
-将暂存的文件撤销；
-
-git diff <file>
-比较file当前内容与仓库内容的区别，无区别就不显示
